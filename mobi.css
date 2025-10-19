@@ -1,0 +1,239 @@
+body {
+    font-family: "Tajawal", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+header {
+    background: linear-gradient(to right, #0d6efd, #6c63ff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #0d6efd;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+article {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+footer {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+a {
+    color: #0d6efd;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article img,
+.hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+img[src="ai-work.jpg"] {
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+article p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+h2 {
+    font-size: 28px;
+    color: #222;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#content p:last-of-type {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+#summary {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+#about p:first-of-type {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+#contact {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#contact h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#contact ul li {
+    margin-bottom: 8px;
+}
+
+#contact ul li a {
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contact ul li a:hover {
+    color: #084298;
+}
+
+/* --- تصميم أزرار وسائل التواصل الاجتماعي --- */
+.social-buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-buttons p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-buttons a:hover {
+    background-color: #084298;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero img,
+    article img {
+        height: auto;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    article p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}
